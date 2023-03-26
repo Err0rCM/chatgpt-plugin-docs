@@ -102,3 +102,11 @@ dist
 
 # TernJS port file
 .tern-port
+
+# dev
+.idea/
+node_modules/
+yarn-error.log
+docs/.vuepress/.cache/
+docs/.vuepress/.temp/
+docs/.vuepress/dist/
