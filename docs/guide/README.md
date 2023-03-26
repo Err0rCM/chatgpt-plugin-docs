@@ -14,7 +14,7 @@ chatgpt-plugin 是一款基于 OpenAI 最新推出的 chatgpt 和微软的 New B
 
 Node.js >= 18 / Node.js >= 14(with node-fetch) 
 
-:::警告
+::: tip 警告
 
 小白尽可能使用18版本以上的nodejs
 
