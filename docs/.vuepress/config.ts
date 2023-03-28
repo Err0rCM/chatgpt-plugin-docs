@@ -31,7 +31,9 @@ export default defineUserConfig<DefaultThemeOptions>({
             {
                 id: 'G-KB1K01QNTT'
             }
-        ]
+        ],
+        ['@vuepress/plugin-nprogress'],
+        
     ],
 
     // 主题和它的配置
@@ -49,6 +51,8 @@ export default defineUserConfig<DefaultThemeOptions>({
         warning: "注意",
         danger: "警告",
         backToHome: "返回首页",
+        nextLinks: true,
+        prevLinks: true,
         navbar: [
             { text: 'Guide', children: ['/guide/', '/guide/quick_start.md', '/guide/config.md', '/guide/file.md', '/guide/docker.md'] },
             { text: 'Config', children: ['/config/', '/config/apikey.md', '/config/accesstoken.md', '/config/bing.md', '/config/browser.md', '/config/tts.md'] },
