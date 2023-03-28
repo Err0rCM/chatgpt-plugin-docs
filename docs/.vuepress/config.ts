@@ -41,12 +41,6 @@ export default defineUserConfig<DefaultThemeOptions>({
                     facetFilters: ["lang:en-US"],
                 },
             }
-        ],
-        [
-            '@vuepress/plugin-register-components', 
-            {
-                componentsDir: './components'
-            }
         ]
     ],
 
