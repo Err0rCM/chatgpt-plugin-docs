@@ -25,6 +25,12 @@ export default defineUserConfig<DefaultThemeOptions>({
                     }
                 }
             }
+        ],
+        [
+            '@vuepress/plugin-google-analytics',
+            {
+                id: 'G-KB1K01QNTT'
+            }
         ]
     ],
 
