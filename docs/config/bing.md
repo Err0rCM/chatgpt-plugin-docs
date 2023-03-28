@@ -30,7 +30,7 @@ copy(document.cookie.split(";").find(cookie=>cookie.trim().startsWith("_U=")).sp
 
 :::
 
-::: tip 警告
+::: warning 警告
 
 如果您使用手机的话，除非您有一定的编程基础，可以使用`Scriptable`等软件获取，否则请尽量使用电脑浏览器！
 

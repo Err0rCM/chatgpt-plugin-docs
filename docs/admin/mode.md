@@ -18,7 +18,7 @@ chatgpt-plugin可以切换不同的模型
 
 API模式下，使用 gpt-3.5-turbo API，ChatGPT官网同款模型，仅需OpenAI Api Key，开箱即用。**注意收费**
 
-::: tip 警告
+::: warning 警告
 
 须配置API Key
 
@@ -30,7 +30,7 @@ API模式下，使用 gpt-3.5-turbo API，ChatGPT官网同款模型，仅需Open
 
 API3模式基于官网的模式，通过反代绕过Cloudflare访问ChatGPT API，**免费**！！！
 
-::: tip 警告
+::: warning 警告
 
 须配置AccessToken
 
@@ -80,7 +80,7 @@ API3模式基于官网的模式，通过反代绕过Cloudflare访问ChatGPT API�
 
 
 
-::: tip 警告
+::: warning 警告
 
 须配置Bing Token
 

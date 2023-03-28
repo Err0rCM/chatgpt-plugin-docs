@@ -10,8 +10,18 @@
 
 开启后，机器人会以回复模式告知正在思考的问题，如果有多个问题正在等待，会提示前方队列还有多少问题
 
+### 预览
 
+当您开启时，机器人会进行如下回复，随后便会撤回该消息
+
+![正在思考](https://user-images.githubusercontent.com/68117733/228228713-af7d1f5b-0e04-4303-8cc7-d04c66fc19e8.png)
+
+如果队列中还有其他问题，会有如下回复
+
+![队列回复](https://user-images.githubusercontent.com/68117733/228229478-f8eee4bb-bd90-49fe-9344-f3d40bca8c28.png)
 
 ## 关闭问题确认
 
 设置方法：`#chatgpt关闭问题确认`
+
+
