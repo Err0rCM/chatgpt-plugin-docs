@@ -33,7 +33,16 @@ export default defineUserConfig<DefaultThemeOptions>({
             }
         ],
         ['@vuepress/plugin-nprogress'],
-        
+        [
+            "@vuepress/plugin-docsearch",
+            {
+                apiKey: '916be29da8c120ab95e9ffa0c2975f0d',
+                indexName: 'chatgpt-err0r',
+                algoliaOptions: {
+                    facetFilters: ["lang:en-US"],
+                },
+            }
+        ]
     ],
 
     // 主题和它的配置
