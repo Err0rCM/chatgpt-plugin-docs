@@ -48,7 +48,7 @@ export default defineUserConfig<DefaultThemeOptions>({
             { text: 'Config', children: ['/config/', '/config/apikey.md', '/config/accesstoken.md', '/config/bing.md', '/config/browser.md', '/config/tts.md'] },
             { text: 'Admin', children: ['/admin/', '/admin/chat.md', '/admin/mode.md', '/admin/replymode.md', '/admin/silence.md', '/admin/queue.md', '/admin/confirm.md'] },
             { text: 'Set', children: ['/set/', '/set/sethelp.md', '/set/share.md'] },
-            { text: 'draw', children: ['/draw/', '/draw/drawpic.md'] },
+            { text: 'Draw', children: ['/draw/', '/draw/drawpic.md'] },
             { text: 'FAQ', children: ['/faq/', '/faq/reverseapi.md', '/faq/slider.md'] },
             { text: 'Other', link: '/other/' },
         ],

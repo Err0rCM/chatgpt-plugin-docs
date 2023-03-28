@@ -2,7 +2,13 @@
 
 此仓库为 [ikechan8370/chatgpt-plugin](https://github.com/ikechan8370/chatgpt-plugin) 的文档。
 
-文档目前正在更新。
+文档目前正在更新，你可以在
+
+- https://err0rcm.github.io/chatgpt-plugin-docs (预览)
+- https://chatgpt-docs.err0r.top/ （正在筹集新域名）
+
+查看
+
 ## 完善文档
 
 如果如果你对于这个文档有好的建议或者补充, 欢迎提 pull request 。
