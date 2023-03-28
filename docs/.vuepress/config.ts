@@ -32,15 +32,20 @@ export default defineUserConfig<DefaultThemeOptions>({
                 id: 'G-KB1K01QNTT'
             }
         ],
-        ['@vuepress/plugin-nprogress'],
         [
-            "@vuepress/plugin-docsearch",
+            '@vuepress/plugin-docsearch',
             {
                 apiKey: '916be29da8c120ab95e9ffa0c2975f0d',
                 indexName: 'chatgpt-err0r',
                 algoliaOptions: {
                     facetFilters: ["lang:en-US"],
                 },
+            }
+        ],
+        [
+            '@vuepress/plugin-register-components', 
+            {
+                componentsDir: './components'
             }
         ]
     ],
