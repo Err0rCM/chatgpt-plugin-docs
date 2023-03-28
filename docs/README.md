@@ -2,7 +2,7 @@
 home: true
 heroImage: https://user-images.githubusercontent.com/21212372/227718994-4d33da74-6886-41d5-afd0-73986b086df0.gif
 heroText: ChatGPT-Plugin
-tagline: 一个基于ChatGPT和New Bing的聊天插件
+tagline: 一个基于云崽机器人(Yunzai-Bot)的聊天插件
 
 actions:
   - text: 发行下载
