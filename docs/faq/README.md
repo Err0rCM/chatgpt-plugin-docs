@@ -6,7 +6,7 @@
 
 - 问题详情：Running this command will add the dependency to the workspace root
 - 原因：依赖安装问题，添加依赖项到了根目录中
-- 解决方式：检查命令是否出错以及权限问题
+- 解决方式：检查命令是否出错以及权限问题，运行`pnpm -i`时添加`-w`参数
 
 ## 【system】ERR_PNPM_UNEXPECTED_STORE
 
@@ -20,6 +20,15 @@
 - 原因：node版本过低
 - 解决方式：升级到`nodejs18`
 
+## 【system】执行`pnpm i`时，sharp安装失败
+
+- 问题详情：执行`pnpm i`时，sharp安装失败，这不会影响到ChatGPT的聊天功能，只会影响到Dalle2绘图功能。
+- 原因：缺少库
+- 解决方式：如果您使用的是Ubuntu操作系统，您可以执行以下命令解决问题：
+
+   ```
+   apt install libvips-dev
+   ```
 ## 【bot】载入插件错误：chat
 
 - 问题详情：Error [ERR_MODULE_NOT_FOUND]: Cannot find package 'showdown' imported from /app/Yunzai-Bot/plugins/chatgpt-plugin/apps/chat.js
