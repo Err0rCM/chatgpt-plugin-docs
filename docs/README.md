@@ -16,9 +16,9 @@ features:
   - title: ChatGPT
     details: 只需简单的配置, 就可以使用 OpenAI 推出的 ChatGPT。
   - title: New Bing
-    details: 新的聊天方式，更多的花样与调教。
+    details: 提出真正的问题，获得完整的答案，新的聊天方式，更多的花样与调教。
   - title: ChatGLM
-    details: 新支持。
+    details: 新增支持ChatGLM模型，提供更多的聊天灵活性。
   # - title: 未来
   #   details: 支持更多AI模型。
 

@@ -7,6 +7,7 @@ export default defineUserConfig<DefaultThemeOptions>({
     title: 'ChatGPT-plugin 文档',
     description: '一个基于ChatGPT和New Bing的聊天插件',
     base: '/',
+      
     plugins: [
         ['@vuepress/back-to-top'],
         [
