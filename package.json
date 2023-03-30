@@ -6,6 +6,7 @@
   "author": "Err0rCM <err0rcm@icloud.com>",
   "license": "MIT",
   "devDependencies": {
+    "@nuxtjs/sitemap": "^2.4.0",
     "@vuepress/plugin-docsearch": "2.0.0-beta.35",
     "@vuepress/plugin-google-analytics": "2.0.0-beta.35",
     "@vuepress/plugin-pwa": "^2.0.0-beta.35",

@@ -35,6 +35,13 @@ jobs:
       - name: Build VuePress site
         run: yarn docs:build
 
+      - name: Generate sitemap
+        run: |
+          npm run generate
+          npm run sitemap
+        env:
+          NODE_ENV: production
+
       - name: Deploy to GitHub Pages
         uses: crazy-max/ghaction-github-pages@v2
         with:
