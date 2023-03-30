@@ -42,12 +42,6 @@ export default defineUserConfig<DefaultThemeOptions>({
                     facetFilters: ["lang:en-US"],
                 },
             }
-        ],
-        [
-            '@vuepress/plugin-sitemap',
-            {
-                hostname: 'https://chatgpt-docs.err0r.top/'
-            }
         ]
     ],
 
