@@ -48,8 +48,8 @@ pnpm install -w undici chatgpt showdown mathjax-node delay uuid remark strip-mar
 ## 【bot】-10003
 
 - 问题详情：Error: unsuccessful retcode: -10003
-- 原因：登录失效
-- 解决方式：重新登录bot，运行`node app`或`npm run login`
+- 原因：登录失效，具体情况是在发送消息时刚刚好connect closed，就是非常的巧
+- 解决方式：如果掉登陆了需要重新登录bot，运行`node app`或`npm run login`；如果没掉那就再发一次信息就好了
 
 ## 【bot】我的bot突然掉线再登录提示禁止登录/版本过低怎么办
 
