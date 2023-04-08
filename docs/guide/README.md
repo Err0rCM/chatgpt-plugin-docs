@@ -8,7 +8,7 @@ ChatGPT-Plugin 是一款强大的插件，基于云崽机器人 (Yunzai-Bot) 开
 
 文档地址：[文档](https://chatgpt-docs.err0r.top)（正在筹集新域名）
 
-文档仓库地址：[仓库](https://github.com/Err0rCM/chatgpt-plugin-docs)
+文档仓库地址：[文档仓库](https://github.com/Err0rCM/chatgpt-plugin-docs)
 
 ## 支持特性
 
