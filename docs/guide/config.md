@@ -109,6 +109,49 @@
 
 :::
 
+#### 反代设定
+
+对于某些模式下如果没有配置代理，则可能无法进行对话。为此，可以使用网上或项目贡献者提供的反向代理服务器。以下是一些反向代理服务，感谢各位贡献者！
+
+以下任意一个反向代理均可，如无法使用可以尝试其他的。
+
+##### API(openAiBaseUrl):
+
+- https://openai-api.ikechan8370.com/v1
+- https://openai-api2.ikechan8370.com/v1
+- https://mondstadt.d201.eu.org/v1
+
+---
+
+##### API3
+
+建议配套使用（api和apiBaseUrl）
+
+###### api
+
+- https://chatgpt.ikechan8370.com/backend-api/conversation
+- https://pimon.d201.cn/backend-api/conversation
+
+###### apiBaseUrl
+
+- https://chatgpt.ikechan8370.com/backend-api
+- https://pimon.d201.cn/backend-api
+
+---
+
+##### Bing
+
+- https://bing.ikechan8370.com
+- https://666102.201666.xyz
+
+
+::: tip 提示
+
+如果您想自己搭建API3的反向代理，可以参照[FAQ/API3反代](/faq/reverseapi)
+
+:::
+
+
 ### 对话配置项
 
 启动机器人后，部分的配置需要通过与机器人对话完成
@@ -157,3 +200,5 @@ copy(document.cookie.split(";").find(cookie=>cookie.trim().startsWith("_U=")).sp
 ###### 方法二：手动获取
 
 登录www.bing.com，刷新一下网页，按F12或直接打开开发者模式，点击Application/存储，点击左侧Storage下的Cookies，展开找到[https://www.bing.com](https://www.bing.com/) 项，在右侧列表Name项下找到"_U"，_U的value即为必应Token
+
+
