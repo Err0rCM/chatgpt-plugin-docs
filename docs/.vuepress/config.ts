@@ -36,11 +36,11 @@ export default defineUserConfig<DefaultThemeOptions>({
         [
             '@vuepress/plugin-docsearch',
             {
-                apiKey: '0bc4ef33734659f32c8ba55b9b877f05',
+                apiKey: '916be29da8c120ab95e9ffa0c2975f0d',
                 appId: 'GG02VO06F1',
                 indexName: 'chatgpt-err0r',
                 algoliaOptions: {
-                    facetFilters: ["lang:en-US"],
+                    facetFilters: ["lang:zh-CN"],
                 },
             }
         ]
