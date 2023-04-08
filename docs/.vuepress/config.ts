@@ -40,7 +40,7 @@ export default defineUserConfig<DefaultThemeOptions>({
                 appId: 'GG02VO06F1',
                 indexName: 'chatgpt-err0r',
                 algoliaOptions: {
-                    facetFilters: ["lang:en-US"],
+                    facetFilters: ["lang:zh-CN"],
                 },
             }
         ]
