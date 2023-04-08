@@ -6,14 +6,14 @@
 >
 > 您可以按照以下方法获取openai账号：
 >
-> 进入 https://chat.openai.com/，选择注册。目前，OpenAI 不对包括俄罗斯、乌克兰、伊朗、中国等国家和地区提供服务，所以您需要自行寻找方法使用**其他国家和地区**的IP地址进行登录。此外，注册可能需要验证所在国家和地区的手机号码，如果没有国外手机号可以试试解码网站，我们推荐 https://sms-activate.org/。
+> 进入 https://chat.openai.com/，选择注册。目前，OpenAI 不对包括俄罗斯、乌克兰、伊朗、中国等国家和地区提供服务，所以您需要自行寻找方法使用**其他国家和地区**的IP地址进行登录。此外，注册可能需要验证所在国家和地区的手机号码，如果没有国外手机号可以试试解码网站，推荐 [sms-activate](https://sms-activate.org/)。
 
 ## 获取
 
 获取AccessToken的步骤如下：
 
-1. 在浏览器中登录 https://chat.openai.com/chat。
-2. **登录后** 访问 https://chat.openai.com/api/auth/session。
+1. 在浏览器中登录 [https://chat.openai.com/chat](https://chat.openai.com/chat)。
+2. **登录后** 访问 [https://chat.openai.com/api/auth/session](https://chat.openai.com/api/auth/session)。
 3. 您会获得类似如下一串 JSON 字符串：
    ```json
    {

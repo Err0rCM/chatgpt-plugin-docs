@@ -32,7 +32,7 @@ cd plugins/chatgpt-plugin
 pnpm i
 ```
 
-> 如果你没有安装pnpm请运行以下命令安装
+> 如果您没有安装pnpm请运行以下命令安装
 > ```sh
 > npm install -g pnpm
 > ```
@@ -52,7 +52,7 @@ pnpm i
 请运行以下命令安装所需依赖
 
 ```sh
-pnpm install -w undici chatgpt showdown mathjax-node delay uuid remark strip-markdown random puppeteer-extra-plugin-recaptcha puppeteer-extra puppeteer-extra-plugin-stealth @waylaidwanderer/chatgpt-api keyv-file eventsource-parser
+pnpm install -w undici chatgpt showdown mathjax-node delay uuid remark strip-markdown random puppeteer-extra-plugin-recaptcha puppeteer-extra puppeteer-extra-plugin-stealth @waylaidwanderer/chatgpt-api keyv-file eventsource-parser @fastify/cors fastify
 ```
 
 
@@ -65,6 +65,11 @@ pnpm install -w undici chatgpt showdown mathjax-node delay uuid remark strip-mar
 
 复制`plugins/chatgpt-plugin/config/config.example.json`并将其改名为`config.json`
 
+::: warning 警告
+
+**请勿直接修改config.example.json**
+
+:::
 
 
 5. #### 重启Yunzai-Bot
