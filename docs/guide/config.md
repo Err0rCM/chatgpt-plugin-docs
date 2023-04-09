@@ -111,7 +111,7 @@
 
 #### 反代设定
 
-对于某些模式下如果没有配置代理，则可能无法进行对话。为此，可以使用网上或项目贡献者提供的反向代理服务器。以下是一些反向代理服务，感谢各位贡献者！
+对于某些模式下如果没有配置代理，则可能无法进行对话。为此，可以使用网上或项目贡献者用爱发电提供的反向代理服务器。以下是一些反向代理服务，感谢各位贡献者！
 
 以下任意一个反向代理均可，如无法使用可以尝试其他的。
 
@@ -131,11 +131,17 @@
 
 - https://chatgpt.ikechan8370.com/backend-api/conversation
 - https://pimon.d201.cn/backend-api/conversation
+- http://chatgpt.err0r.top/backend-api/conversation
+
+> 第三个为我个人使用docker搭建后穿透出来的样例，主要为写搭建教程，所以未配置https
+> 
+> 想搭建自己的API3代理？试试下面的提示吧！
 
 ###### apiBaseUrl
 
 - https://chatgpt.ikechan8370.com/backend-api
 - https://pimon.d201.cn/backend-api
+- http://chatgpt.err0r.top/backend-api
 
 ---
 
@@ -147,7 +153,7 @@
 
 ::: tip 提示
 
-如果您想自己搭建API3的反向代理，可以参照[FAQ/API3反代](/faq/reverseapi)
+如果您想自己搭建API3的反向代理，可以参照[Config/API3反代](/config/reverseapi)
 
 :::
 

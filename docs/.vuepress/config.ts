@@ -65,11 +65,11 @@ export default defineUserConfig<DefaultThemeOptions>({
         prevLinks: true,
         navbar: [
             { text: 'Guide', children: ['/guide/', '/guide/quick_start.md', '/guide/config.md', '/guide/file.md', '/guide/docker.md'] },
-            { text: 'Config', children: ['/config/', '/config/apikey.md', '/config/accesstoken.md', '/config/bing.md', '/config/browser.md', '/config/tts.md'] },
+            { text: 'Config', children: ['/config/', '/config/apikey.md', '/config/accesstoken.md', '/config/bing.md', '/config/browser.md', '/config/tts.md', '/config/reverseapi.md'] },
             { text: 'Admin', children: ['/admin/', '/admin/chat.md', '/admin/mode.md', '/admin/replymode.md', '/admin/silence.md', '/admin/queue.md', '/admin/confirm.md'] },
             { text: 'Set', children: ['/set/', '/set/sethelp.md', '/set/share.md'] },
             { text: 'Draw', children: ['/draw/', '/draw/drawpic.md'] },
-            { text: 'FAQ', children: ['/faq/', '/faq/reverseapi.md', '/faq/slider.md'] },
+            { text: 'FAQ', children: ['/faq/', '/faq/slider.md'] },
             { text: 'Other', link: '/other/' },
         ],
         sidebar: "auto",
