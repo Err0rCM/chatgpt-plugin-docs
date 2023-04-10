@@ -2,6 +2,8 @@
 
 此页面长期维护，欢迎遇到问题的小伙伴或者解决问题的小伙伴提出pr！迫切需要小伙伴们一起维护！
 
+![闭眼开车](https://user-images.githubusercontent.com/68117733/230866047-c9ccaa46-7a48-4107-91af-242179999995.jpg)
+
 ## 【system】ERR_PNPM_ADDING_TO_ROOT
 
 - 问题详情：Running this command will add the dependency to the workspace root
