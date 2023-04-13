@@ -1,4 +1,4 @@
-# 详细安装步骤
+# 完整安装步骤
 
 本文介绍Yunzai-bot与ChatGPT-plugin插件的详细安装步骤。
 

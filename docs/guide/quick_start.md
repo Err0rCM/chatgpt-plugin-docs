@@ -75,6 +75,12 @@ pnpm install -w undici chatgpt showdown mathjax-node delay uuid remark strip-mar
 5. #### 重启Yunzai-Bot
 
 
+::: tip 还不明白？
+
+您可以参考[完整安装方式](/guide/detail_install)，或[使用Docker](/guide/docker)
+
+:::
+
 
 ### 更新
 
@@ -126,7 +132,7 @@ git stash pop
 
 如果遇到下载速度缓慢的问题可以用 [这个源](https://downloads.go-cqhttp.org/ffmpeg-release-full.7z) 。
 
-然后在 cmd 输入 **(不能使用 powershell）**
+然后在 cmd 输入 **(不能使用 powershell)**
 
 ```shell
 setx /M PATH "C:\Program Files\ffmpeg\bin;%PATH%"
