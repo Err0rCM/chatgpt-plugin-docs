@@ -1,5 +1,3 @@
-
-
 # 详细安装步骤
 
 本文介绍Yunzai-bot与ChatGPT-plugin插件的详细安装步骤。
@@ -10,7 +8,7 @@
 
 请放心，本文同时提供了在国内网络不畅时的安装方法，全程无需特殊网络~
 
-p.s. 如果您有Docker，可以使用我构建的Docker镜像一键启动：https://hub.docker.com/r/moeta233/yunzai-chatgpt
+p.s. 如果您有Docker，可以参考[使用Docker](/guide/docker)
 
 
 
