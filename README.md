@@ -31,3 +31,7 @@ yarn docs:dev
 ## 感谢
 
 本文档内容由 [Err0r](https://github.com/Err0rCM/) 和 [文档贡献者](https://github.com/Err0rCM/chatgpt-plugin-docs/graphs/contributors) 编写，采用 [MIT License](https://opensource.org/licenses/MIT) 进行许可。
+
+<a href="https://github.com/Err0rCM/chatgpt-plugin-docs/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=Err0rCM/chatgpt-plugin-docs" />
+</a>
