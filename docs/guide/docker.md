@@ -5,7 +5,14 @@ chatgpt-plugin支持使用Docker云崽。
 
 详情请查看[云崽机器人与chatGPT插件的安装](https://err0r.top/article/Yunzai-chatgptPlugin/)
 
-如果您有Docker，可以使用贡献者构建的Docker镜像一键启动[dockerHub](https://hub.docker.com/r/moeta233/yunzai-chatgpt)
+如果您有Docker，可以使用贡献者构建的Docker镜像一键启动：
+
+```bash
+# 以容器名yunzai，容器SSH转发到1022端口，锅巴登录端口50831为例
+docker run -it -p 1022:22 -p 50831:50831 --name yunzai moeta233/yunzai-chatgpt
+```
+
+详细说明已在对应的DockerHub中列出。请参阅：[DockerHub](https://hub.docker.com/r/moeta233/yunzai-chatgpt)
 
 
 ::: warning 警告
