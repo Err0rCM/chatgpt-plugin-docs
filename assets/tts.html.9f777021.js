@@ -1,0 +1,1 @@
+const t={key:"v-7988c2da",path:"/config/tts.html",title:"\u8BED\u97F3\u8F6C\u6362API",lang:"zh-CN",frontmatter:{},excerpt:"",headers:[],git:{updatedTime:1679826635e3,contributors:[{name:"Err0rCM",email:"1906968764@qq.com",commits:1}]},filePathRelative:"config/tts.md"};export{t as data};

@@ -1,0 +1,1 @@
+const e={key:"v-53eda8c5",path:"/config/browser.html",title:"\u6D4F\u89C8\u5668\u6A21\u5F0F\u914D\u7F6E",lang:"zh-CN",frontmatter:{},excerpt:"",headers:[{level:2,title:"\u5B89\u88C5",slug:"\u5B89\u88C5",children:[]}],git:{updatedTime:1680112839e3,contributors:[{name:"Err0rCM",email:"1906968764@qq.com",commits:2}]},filePathRelative:"config/browser.md"};export{e as data};

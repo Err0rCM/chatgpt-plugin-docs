@@ -1,0 +1,1 @@
+const t={key:"v-05d7c1c6",path:"/config/chatglm.html",title:"ChatGLM\u914D\u7F6E",lang:"zh-CN",frontmatter:{},excerpt:"",headers:[],git:{updatedTime:1680003454e3,contributors:[{name:"Err0rCM",email:"1906968764@qq.com",commits:1}]},filePathRelative:"config/chatglm.md"};export{t as data};
